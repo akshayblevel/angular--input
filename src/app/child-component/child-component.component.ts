@@ -10,5 +10,5 @@ export class ChildComponentComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {}
-  @Input() employees: IEmployee[];
+  @Input() emp: IEmployee;
 }
